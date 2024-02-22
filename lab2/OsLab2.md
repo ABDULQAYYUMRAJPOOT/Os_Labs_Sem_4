@@ -4,7 +4,7 @@
 
 ## Create new file
 
-In order to create new file in linux terminal you have to write **touch file_Name.Extention**
+In order to create a new file in the Linux terminal, you have to write **touch file_Name.Extention**
 
 ![loading](images/1.png)
 
@@ -12,90 +12,88 @@ In order to create new file in linux terminal you have to write **touch file_Nam
 
 ![loading](images/2.png)
 
-To enter content in the file you have to write **nano fileName** after writing content in the file, to save you have to press **Ctrl+S** , to exit from the editor you have to press **Ctrl+X**. Also to see the content in the file you have to write **cat fileName**.
+To enter content into the file, you have to write **nano fileName**. After writing content in the file, to save, you have to press **Ctrl+S**, and to exit from the editor, you have to press **Ctrl+X**. To see the content in the file, you have to write **cat fileName**.
 
+## Merge content of one file into another
 
-
-## Merge content of one file to another
-
-In order to merge the content of one file to another file you have to write command **cat firstFileName >> SecondFileName**. It will append content of one file to the other.
+To merge the content of one file into another, you have to write the command **cat firstFileName >> SecondFileName**. It will append the content of one file to the other.
 
 ![loading](images/7.png)
 
-##  Redirect the output to another file
+## Redirect the output to another file
 
-If you want to create a new file after merging the content of two files you should write **cat firstFileName SecondFileName > newFileName**. This will create a new file after appending content of one file to another file write it into another file.
+If you want to create a new file after merging the content of two files, you should write **cat firstFileName SecondFileName > newFileName**. This will create a new file after appending content of one file to another file and write it into another file.
 
 ![loading](images/9.png)
 
 ## Display first two lines of a file content
 
-To display only first two lines of a file you have to write **head -n fileName** here **n** is number of lines you want to display.
+To display only the first two lines of a file, you have to write **head -n fileName** where **n** is the number of lines you want to display.
 
 ![loading](images/10.png)
 
 ## Display last two lines of a file content
 
-To display only last two lines of a file you have to write **head -n fileName** here **n** is number of lines you want to display.
+To display only the last two lines of a file, you have to write **tail -n fileName** where **n** is the number of lines you want to display.
 
 ![loading](images/11.png)
 
-## Find text in file
+## Find text in a file
 
-For finding a text in file write command **grep "Text you want to find" fileName**.
+To find text in a file, write the command **grep "Text you want to find" fileName**.
 
 ![loading](images/12.png)
 
-## Grant the permission to file or a folder
+## Grant permission to a file or folder
 
-To grant execution permission to file or folder you have to write command **chmod g+x fileOrFolderName**. In command replace **u,g**   are for **user and group** respectively. Replace **x,r,w** for **execution, read and write** permission respectively
-
-![loading](images/13.png) 
-
-## Remove the permission to file or a folder
-
-To grant execution permission to file or folder you have to write command **chmod u-x fileOrFolderName**. In command replace **u,g**   are for **user and group** respectively. Replace **x,r,w** for **execution, read and write** permission respectively. **ls -l fileOrFolderName** to see the present permission to a file or folder.
+To grant execution permission to a file or folder, you have to write the command **chmod g+x fileOrFolderName**. In the command, replace **u,g** with **user and group** respectively. Replace **x,r,w** with **execution, read, and write** permission respectively.
 
 ![loading](images/13.png) 
 
-## Present Directory
+## Remove permission from a file or folder
 
-In order to see at which directory you are working in present. give command **pwd** in terminal.
+To remove execution permission from a file or folder, you have to write the command **chmod u-x fileOrFolderName**. In the command, replace **u,g** with **user and group** respectively. Replace **x,r,w** with **execution, read, and write** permission respectively. Use **ls -l fileOrFolderName** to see the present permissions of a file or folder.
 
-## List/See files present in specific location
+![loading](images/13.png) 
 
-For locating files in a specific path or directory(Folder) you should write **ls path**
+## Present working directory
+
+To see which directory you are currently working in, use the command **pwd** in the terminal.
+
+## List/see files present in a specific location
+
+To locate files in a specific path or directory(folder), use the command **ls path**
 
 ![loading](images/15.png)
 
-## Create a new Folder or Directory
+## Create a new folder or directory
 
-If you want to create a folder or directory present working directory the command is **mkdir directoryName**.
+To create a folder or directory in the present working directory, use the command **mkdir directoryName**.
 
 ![loading](images/16.png)
 
 ## Display current time
 
-Current time is given by command **date**
+To display the current time, use the command **date**
 
 ![loading](images/17.png)
 
-## Display any text on terminal
+## Display any text on the terminal
 
-For showing some text on the terminal write **echo textYouWantToShow**
+To show some text on the terminal, write **echo textYouWantToShow**
 
 # Task 2:
 
-## Change permissions of file with number code
+## Change permissions of a file with a number code
 
-To change permissions of file or folder with the help of number or code you have to write command **chmod numberCode fileOrFolderName**. 
+To change permissions of a file or folder using a number code, use the command **chmod numberCode fileOrFolderName**. 
 
 ![loading](images/19.png)
 
 ![loading](images/permissionCode.png)
 
-## Append content of command to File
+## Append content of a command to a file
 
-In order to append the result of command to a file you have to write **command >> fileName** like in the figure.
+To append the result of a command to a file, write **command >> fileName** as shown in the figure.
 
 ![loading](images/20.png)
